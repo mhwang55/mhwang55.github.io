@@ -81,8 +81,9 @@
   /*
   changes drop-down box bgcolor
   background: #AABDE6;
-  */
   background: #2d1152;
+  */
+  background: #000000;
 }
 .sf-menu ul ul li {
   background: #9AAEDB;
@@ -118,7 +119,7 @@
 	height: 0;
 	width: 0;
 	/* order of following 3 rules important for fallbacks to work */
-	border: 5px solid;
+	border: 5px solid transparent;
 	border-top-color: #FFFFFF; /* edit this to suit design (no rgba in IE8) */
 	border-top-color: rgba(255,255,255,.5);
 }
