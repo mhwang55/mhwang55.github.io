@@ -1,0 +1,122 @@
+div
+{
+  display: block;
+  box-sizing: border-box;
+}
+
+.inline
+{
+  display: inline-block;
+}
+
+h1#title
+{
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  border-bottom-style: none;
+}
+
+#sub
+{
+  color: #ffffff;
+}
+
+#sub.login
+{
+  background-color: #444;
+  border-color: #4cae4c;
+  color: #ffffff;
+}
+
+#content
+{
+  position: relative;
+  height: 100%;
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#leftCol
+{
+  width:34.5%;
+}
+
+#centerCol
+{
+  vertical-align: top;
+  width:34.5%;
+}
+
+#rightCol
+{
+  float: right;
+  padding-top: 1%;
+  /*
+  padding-right: 10%;
+  */
+}
+
+.holder
+{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.check
+{
+  padding: 10px;
+}
+
+#center
+{
+  /*
+  left: 100px;
+  float: right;
+  */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pad10
+{
+  padding: 10px;
+}
+
+.pad10Side
+{
+  padding: 10px 0px;
+}
+
+#header
+{
+  /*
+  float: right;
+  */
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: gray;
+}
+
+#prodDescr
+{
+  padding: 10px 0px;
+}
+
+#price
+{
+  font-size: 16px;
+}
+
+#fullName
+{
+  margin-bottom: 15px;
+}
+
+img
+{
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,36 @@
+  function moveScroller() {
+    var move = function() {
+      var st = $(window).scrollTop();
+      var sl = $(window).scrollLeft();
+      var ot = $("#scroller-anchor-top").offset().top;
+      var ol = $("#scroller-anchor-top").offset().left;
+      var bt = $("#scroller-anchor-bottom").offset().top;
+      var s = $("#scroller");
+      if(st > ot) {
+        if (st < bt - 280) //280px is the approx. height for the sticky div
+        {
+          s.css({
+            position: "fixed",
+            top: "0px",
+            left: ol-sl
+          }); 
+        }
+        else
+        {
+          s.css({
+            position: "fixed",
+            top: bt-st-280,
+            left: ol-sl
+          }); 
+        }
+      } else {
+          s.css({
+          position: "relative",
+          top: "",
+          left: ""
+        });
+      }
+    };
+    $(window).scroll(move);
+    move();
+  }

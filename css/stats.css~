@@ -1,0 +1,103 @@
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFFFFF
+}
+
+#stats1
+{
+  display: block;
+}
+
+.exp
+{
+  font-family: "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+}
+
+.explanation
+{
+  width: 60%;
+  margin: auto;
+}
+
+#contains
+{
+  margin: auto;
+}
+
+.img
+{
+  width: 100%;
+  height: 100%;
+  border: None;
+}
+
+#statsSide
+{
+  display: inline-block;
+  width: 480px;
+  margin: 0px;
+}
+
+.sideExplanation
+{
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 100px;
+  width: 50%;
+}
+
+.sideExplanation .exp
+{
+  border: None;
+}
+
+.link
+{
+  display: inline-block;
+  margin: auto;
+}
+
+#links
+{
+  width: 25%;
+  height: 50px;
+  margin: auto;
+}
+
+#left
+{
+  float: left;
+}
+
+#right
+{
+  float: right;
+}
+
+#start
+{
+  text-align: center;
+  border: None;
+}
+
+#summary
+{
+  border:None;
+}
+
+#centerLink p
+{
+  text-align: center;
+}
+
+.const
+{
+  width: 552px;
+}

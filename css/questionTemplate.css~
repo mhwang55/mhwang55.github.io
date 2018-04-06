@@ -1,0 +1,86 @@
+#q_a
+{
+  position: relative;
+  float: left;
+  width: 500px;
+  margin: 0px;
+  margin-bottom: 20px;
+  /*
+  background-color: #e8d9c5;
+  */
+  /*
+  font: 14px/1.25 "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  */
+}
+
+#qAndA > div > h3
+{
+  font-family: "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+}
+
+#qTitle
+{
+  font: 24px/1.25 "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+#qBody
+{
+  font: 14px/1.25 "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  margin: 10px 20px;
+  margin-top: 5px;
+}
+
+#qTags
+{
+  font: 10px/1.25 "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#aMain
+{
+  border-bottom: 1px solid #aaa;
+  /*
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #aaa;
+  */
+}
+
+#aBody
+{
+  font: 14px/1.25 "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  margin: 20px 30px;
+}
+
+#answerTitle > span
+{
+  font-weight: bold;
+  font-family: "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+}
+
+#answer
+{
+  width: 100%;
+  height: 50%;
+}
+
+#schoolSelectHide
+{
+  display: none;
+}
+
+#schoolSelectShow
+{
+  display: block;
+}
+
+#submitAnswer
+{
+  font-family: "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $('.answer').hide();
+  $('#main h2').click(
+     function(){$(this).next('.answer').fadeToggle(
+         1500, "linear" 
+     );
+     $(this).toggleClass('close');
+  });
+});
+

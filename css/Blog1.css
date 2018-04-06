@@ -1,0 +1,61 @@
+h1
+{
+	text-align: center;
+
+	text-transform: uppercase;
+
+	font-family: "Times New Roman", Times, serif;
+
+	font-size: 30px;
+
+	font-weight: bold;
+}
+
+#topBar
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #FFA500;
+	/*border: 5px solid gray;*/
+	height: 150px;
+	width: 200px;
+	margin-bottom: 100px;
+}
+
+#selection
+{
+	position: absolute;
+	/*top: 100px;*/
+	top: 100px;
+	left: 100px;
+}
+
+#selectionState
+{
+	position: absolute;
+	top: 300px;
+	right: 200px;
+}
+
+#selectionCounty
+{
+	position: absolute;
+	top: 300px;
+	right: 200px;
+}
+
+#selectionCity
+{
+	position: absolute;
+	top: 300px;
+	right: 200px;
+}
+
+#selectionSchool
+{
+	position: absolute;
+	top: 300px;
+	right: 200px;
+}
+#end of css

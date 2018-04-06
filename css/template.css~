@@ -1,0 +1,113 @@
+html, body
+{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #87CEFA;
+}
+
+#topBar
+{
+  height: 30px;
+}
+
+span
+{
+  font-size: 16px;
+}
+
+#all
+{
+  margin: auto;
+  width: 90%;
+  height: 60%;
+}
+
+h1
+{
+  font-family: "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom-style: solid;
+}
+
+h4
+{
+  font-family: "Helvetica Neue", HelveticaNeue, helvetica, arial, sans-serif;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+}
+
+div
+{
+  display: block;
+  position: relative;
+}
+
+#header
+{
+  position: static;
+  margin: auto;
+}
+
+#imgs
+{
+  width: 40%;
+  margin: auto;
+  margin: auto;
+}
+
+.content
+{
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 30%;
+}
+
+#content2
+{
+  float: right;
+}
+
+#img1
+{
+  position: relative;
+  height: 128px;
+}
+
+#img2
+{
+  position: relative;
+  height: 128px;
+}
+
+.img
+{
+  width: 104px;
+  margin: auto;
+  border-radius: 15px;
+  border: 10px solid #FFD700;
+}
+
+.des
+{
+  margin: auto
+}
+
+.info
+{
+  text-align: center
+}
+
+.highlight
+{
+  border-radius: 15px;
+  border: 10px solid #73AD21;
+}
+
+.const
+{
+  width: 1000px;
+}

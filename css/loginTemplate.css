@@ -1,0 +1,54 @@
+h1#title
+{
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  border-bottom-style: none;
+}
+
+#sub
+{
+  color: #ffffff;
+}
+
+#sub.login
+{
+  background-color: #444;
+  border-color: #4cae4c;
+  color: #ffffff;
+}
+
+#content
+{
+  position: relative;
+  height: 100%;
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#right
+{
+  float: right;
+  padding-top: 1%;
+  /*
+  padding-right: 10%;
+  */
+}
+
+#header
+{
+  /*
+  float: right;
+  */
+  padding-bottom: 15%;
+}
+
+#fullName
+{
+  margin-bottom: 15px;
+}
+
+.name
+{
+}
